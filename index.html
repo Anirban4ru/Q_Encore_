@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-ENCORE | Music Club</title>
+    
+    <link rel="icon" type="image/png" href="assets/icons8-music-64.png">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-flex">
+            <div class="logo">
+                <i class="fas fa-music"></i> Q-ENCORE
+            </div>
+
+            <div class="mobile-toggle" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <div class="nav-right" id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link-item">Home</a></li>
+                    <li><a href="#about" class="nav-link-item">The Room</a></li>
+                    <li><a href="#faculty" class="nav-link-item">Mentor</a></li>
+                    <li><a href="#team" class="nav-link-item">Team</a></li>
+                    <li><a href="#events" class="nav-link-item">Registrations</a></li>
+                </ul>
+                <a href="admin.html" class="admin-btn-nav" title="Admin Panel">
+                    <i class="fas fa-lock"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-section">
+        <video autoplay muted loop playsinline class="video-bg">
+            <source src="assets/viz.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        
+        <div class="container hero-content">
+            <span class="tag">Quantum University Music Club</span>
+            <h1>Rhythm in <br> Motion.</h1>
+            <p>Join the collective. Create the sound.</p>
+            <a href="#events" class="btn-main">View Events</a>
+        </div>
+    </header>
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="split-layout">
+                <div class="text-block">
+                    <h2>The Music Room</h2>
+                    <p class="sub-text">B-Block, Room 305</p>
+                    <p>Our sanctuary for sound. Equipped with professional drum kits, amplifiers, and acoustic treatment, this is where raw talent becomes polished performance.</p>
+                    <ul class="clean-list">
+                        <li><i class="fas fa-check"></i> Jam Sessions</li>
+                        <li><i class="fas fa-check"></i> Vocal Training</li>
+                        <li><i class="fas fa-check"></i> Equipment Storage</li>
+                    </ul>
+                </div>
+                <div class="image-block">
+                    <div class="room-image-wrapper">
+                        <img src="assets/THREE.jpg" alt="Music Room" class="colorize-hover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faculty" class="section-padding bg-light">
+        <div class="container">
+            <div class="mentor-wrapper">
+                <div class="mentor-img">
+                    <img src="assets/Pooja Maam.webp" alt="Ms. Pooja Barthwal" onerror="this.src='https://via.placeholder.com/200'">
+                </div>
+                <div class="mentor-info">
+                    <span class="role-tag">Faculty Coordinator</span>
+                    <h2>Ms. Pooja Barthwal</h2>
+                    <p class="quote">"Music is the heartbeat of human connection. At Q-Encore, we nurture that beat."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Leadership</h2>
+                <p>Organized for Excellence</p>
+            </div>
+            
+            <div class="hierarchy-wrapper">
+                
+                <div class="hierarchy-row">
+                    <div class="team-card president-card">
+                        <div class="img-frame">
+                            <img src="assets/Ayush .jpg" alt="Ayush Singh" onerror="this.src='https://via.placeholder.com/300x350'">
+                        </div>
+                        <h3>Ayush Singh</h3>
+                        <p class="role-badge">President</p>
+                        <p class="passion">Lead Vocalist</p>
+                    </div>
+                </div>
+
+                <div class="hierarchy-row bottom-row">
+                    <div class="team-card">
+                        <div class="img-frame">
+                            <img src="assets/Anirban.jpeg" alt="Anirban Chatterjee" onerror="this.src='https://via.placeholder.com/300x350'">
+                        </div>
+                        <h3>Anirban Chatterjee</h3>
+                        <p class="role-text">Vice President</p>
+                        <p class="passion">Vocalist & Instrumentalist</p>
+                    </div>
+
+                    <div class="team-card">
+                        <div class="img-frame">
+                            <img src="assets/Shreya.jpg" alt="Shreya Dutta" onerror="this.src='https://via.placeholder.com/300x350'">
+                        </div>
+                        <h3>Shreya Dutta</h3>
+                        <p class="role-text">Vice President</p>
+                        <p class="passion">Classical Vocalist</p>
+                    </div>
+
+                    <div class="team-card">
+                        <div class="img-frame">
+                            <img src="assets/Saarthak.jpg" alt="Saarthak Shelly" onerror="this.src='https://via.placeholder.com/300x350'">
+                        </div>
+                        <h3>Saarthak Shelly</h3>
+                        <p class="role-text">Event Coordinator</p>
+                        <p class="passion">Instrumentalist (Percussion)</p>
+                    </div>
+
+                    <div class="team-card">
+                        <div class="img-frame">
+                            <img src="assets/Ayushi.jpg" alt="Ayushi Dey" onerror="this.src='https://via.placeholder.com/300x350'">
+                        </div>
+                        <h3>Ayushi Dey</h3>
+                        <p class="role-text">Event Coordinator</p>
+                        <p class="passion">Classical Vocalist + Instrumentalist</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Live Registrations</h2>
+                <p>Secure your spot for upcoming auditions and events.</p>
+            </div>
+            <div id="events-grid" class="events-grid">
+                <div class="empty-msg">No active events currently.</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h2>Q-ENCORE</h2>
+                    <p>The official music collective of Quantum University.</p>
+                    <div class="footer-socials">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="admin.html">Admin Login</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Visit Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> B-Block, Room 305</p>
+                    <p><i class="fas fa-university"></i> Quantum University, Roorkee</p>
+                    <p><i class="fas fa-phone"></i> 7365026356</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Q-Encore. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
